@@ -10,7 +10,7 @@ import {
   REGISTER_SUCCESS,
   REGISTER_LOADING,
   LOGOUT,
-} from "../../actions/auth/types";
+} from "../actions/types";
 
 const getToken = () => {
   if (typeof window !== "undefined") {
